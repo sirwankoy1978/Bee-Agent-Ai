@@ -1,0 +1,6 @@
+# Bee-Agent-Ai runtime dependencies
+# Official install pattern from docs.agno.com:  uv pip install -U "agno[os,telegram]" openai
+agno[os,telegram]>=3.1,<4
+openai>=1.60
+httpx>=0.28
+ddgs>=9.0        # backs agno.tools.websearch (WebSearchTools)
